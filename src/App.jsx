@@ -76,7 +76,7 @@ class App extends Component {
           </div>
         </Form>
         {this.renderReminders()}
-        <Button color="danger" onClick={this.clearReminders.bind(this)}>Clear Reminders</Button>
+        <Button color="danger" onClick={this.clearReminders.bind(this)} style={{margin:'15px auto 0'}}>Clear Reminders</Button>
       </div>
     );
   }
